@@ -1,0 +1,26 @@
+{
+  "name": "astrolink",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "ansi-escapes": "^7.3.0",
+    "astronomy-engine": "^2.1.19",
+    "ink": "^7.0.1",
+    "meow": "^14.1.0",
+    "react": "^19.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.5"
+  }
+}
