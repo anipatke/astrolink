@@ -3,7 +3,7 @@ type: project-prd
 status: active
 ---
 
-# astrolink — Product Vision
+# dotsky — Product Vision
 
 ## What it is
 

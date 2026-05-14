@@ -4,7 +4,7 @@ status: active
 last_audited: never
 ---
 
-# astrolink — System Architecture
+# dotsky — System Architecture
 
 > Visual identity lives in `.savepoint/visual-identity.md`.
 
@@ -87,7 +87,7 @@ E01 and E02 are independent and can proceed in parallel. E03 depends on both. E0
 ## 6. CLI surface
 
 ```
-astrolink [--lat=N] [--lon=N] [--time=ISO] [--no-geo] [--aspect=N] [--fps=N] [--labels]
+dotsky [--lat=N] [--lon=N] [--time=ISO] [--no-geo] [--aspect=N] [--fps=N] [--labels]
 ```
 
 All flags optional. Location resolved via CLI → cache → IP geo → Sydney fallback.

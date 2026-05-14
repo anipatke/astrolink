@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import meow from 'meow';
 import { render } from 'ink';
 import { createElement } from 'react';
@@ -7,7 +8,7 @@ import App, { type AppProps } from './App.js';
 const cli = meow(
   `
   Usage
-    $ astrolink
+    $ dotsky
 
   Options
     --lat       Observer latitude
@@ -19,7 +20,7 @@ const cli = meow(
     --labels    Start with labels enabled
 
   Examples
-    $ astrolink --lat=-33.8688 --lon=151.2093
+    $ dotsky --lat=-33.8688 --lon=151.2093
 `,
   {
     importMeta: import.meta,

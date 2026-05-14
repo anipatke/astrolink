@@ -1,9 +1,9 @@
-# astrolink Engineering Spec
+# dotsky Engineering Spec
 
 Version: 1.1.0
 Stack: Node.js + Ink + React + astronomy-js
-Package: `astrolink`
-Binary: `astrolink`
+Package: `dotsky`
+Binary: `dotsky`
 
 ---
 
@@ -53,13 +53,13 @@ Use `meow` for argument parsing.
 ### Commands
 
 ```bash
-astrolink
-astrolink --lat=-33.8688 --lon=151.2093
-astrolink --time="2026-04-29T21:00:00+10:00"
-astrolink --no-geo
-astrolink --aspect=0.5
-astrolink --fps=15
-astrolink --labels
+dotsky
+dotsky --lat=-33.8688 --lon=151.2093
+dotsky --time="2026-04-29T21:00:00+10:00"
+dotsky --no-geo
+dotsky --aspect=0.5
+dotsky --fps=15
+dotsky --labels
 ```
 
 ### CLI Options
@@ -250,7 +250,7 @@ aspect = 0.5
 Override:
 
 ```bash
-astrolink --aspect=0.55
+dotsky --aspect=0.55
 ```
 
 Aspect correction must be applied in projection, not rendering.
@@ -322,7 +322,7 @@ maxLabels = Math.floor(width / 12);
 ## 13. UI Layout
 
 ```text
-┌─ astrolink ─────────────── [ lat, lon ] ─┐
+┌─ dotsky ─────────────── [ lat, lon ] ─┐
 │                                          │
 │                 viewport                 │
 │                                          │

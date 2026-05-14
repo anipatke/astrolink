@@ -28,7 +28,7 @@ Every launch would hit the IP geolocation service. A local cache avoids unnecess
 ## Implementation Plan
 
 - [ ] Create `src/location/cacheLocation.ts`
-- [ ] Use `os.homedir() + '/.config/astrolink/location.json'` as cache path
+- [ ] Use `os.homedir() + '/.config/dotsky/location.json'` as cache path
 - [ ] `readCachedLocation()`: parse JSON, validate lat/lon ranges, return null on error
 - [ ] `writeCachedLocation()`: JSON.stringify, write to temp file, rename
 - [ ] Write tests with mocked fs

@@ -17,7 +17,7 @@ describe('App component', () => {
   test('handles keyboard input', async () => {
     const { lastFrame } = render(<App />);
     await new Promise(resolve => setTimeout(resolve, 0));
-    expect(lastFrame()).toContain('Astrolink');
+    expect(lastFrame()).toContain('Dotsky');
     expect(lastFrame()).toContain('[q] quit');
     expect(lastFrame()).toContain('N');
   });

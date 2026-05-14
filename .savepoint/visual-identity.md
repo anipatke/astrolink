@@ -6,7 +6,7 @@ last_audited: never
 
 # Visual Identity — Atari-Noir
 
-> The brand identity and visual guardrails for astrolink. **Loaded conditionally** — only when working on TUI rendering, theme, or design-system tasks. Non-visual tasks must skip this file to honor the token budget.
+> The brand identity and visual guardrails for dotsky. **Loaded conditionally** — only when working on TUI rendering, theme, or design-system tasks. Non-visual tasks must skip this file to honor the token budget.
 
 ## Vibe
 

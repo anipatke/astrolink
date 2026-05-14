@@ -1,4 +1,4 @@
-# ✦ astrolink
+# ✦ dotsky
 
 > A full-screen terminal planetarium. No telescope required — just a keyboard and a sense of wonder.
 
@@ -11,7 +11,7 @@
             [ TERMINAL SKY ACTIVATED ]
 ```
 
-**astrolink** turns your terminal into a live celestial viewport. Point it anywhere on Earth, dial in any time, and watch the sky render in ASCII — stars, planets, the Moon, and the Sun, plotted in real time.
+**dotsky** turns your terminal into a live celestial viewport. Point it anywhere on Earth, dial in any time, and watch the sky render in ASCII — stars, planets, the Moon, and the Sun, plotted in real time.
 
 It is accurate enough to trust, minimal enough to leave running, and weird enough to feel like a piece of arcade hardware that fell off a satellite.
 
@@ -20,13 +20,13 @@ It is accurate enough to trust, minimal enough to leave running, and weird enoug
 ## 🚀 Install
 
 ```bash
-npm install -g astrolink
+npm install -g dotsky
 ```
 
 Or run it directly with `npx`:
 
 ```bash
-npx astrolink
+npx dotsky
 ```
 
 ---
@@ -36,26 +36,26 @@ npx astrolink
 Launch and let it find your sky automatically:
 
 ```bash
-astrolink
+dotsky
 ```
 
 Take the helm manually:
 
 ```bash
 # Set your ground station
-astrolink --lat=-33.8688 --lon=151.2093
+dotsky --lat=-33.8688 --lon=151.2093
 
 # Rewind to a specific night
-astrolink --time="2026-04-29T21:00:00+10:00"
+dotsky --time="2026-04-29T21:00:00+10:00"
 
 # Disable geolocation (fully offline)
-astrolink --no-geo
+dotsky --no-geo
 
 # Start with labels enabled
-astrolink --labels
+dotsky --labels
 
 # Fine-tune the display
-astrolink --aspect=0.5 --fps=15
+dotsky --aspect=0.5 --fps=15
 ```
 
 ### CLI Options
@@ -95,7 +95,7 @@ In **manual mode**, time freezes and you step through it in 10-minute chunks.
 
 ## 🗺️ How Location Works
 
-astrolink tries to lock onto your position in this order:
+dotsky tries to lock onto your position in this order:
 
 1. **CLI flags** (`--lat` / `--lon`) — you know where you are
 2. **Cached location** — remembers the last session
@@ -157,7 +157,7 @@ ISC
 ---
 
 ```text
-┌─ astrolink ──────────────────────────────┐
+┌─ dotsky ──────────────────────────────┐
 │                                          │
 │   "The universe is under no obligation   │
 │    to make sense to you."                │

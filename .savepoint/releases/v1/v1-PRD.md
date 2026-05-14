@@ -4,7 +4,7 @@ release: v1
 status: active
 ---
 
-# astrolink — v1 Release Plan
+# dotsky — v1 Release Plan
 
 ## Release goal
 

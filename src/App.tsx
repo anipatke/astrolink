@@ -36,7 +36,7 @@ export const App: FC<AppProps> = (_props = {}) => {
   return (
     <Box flexDirection="column" width={80}>
       <Header />
-      <Text>Astrolink sky preview</Text>
+      <Text>Dotsky sky preview</Text>
       <Viewport screenPoints={previewPoints} />
       <Horizon width={80} />
       <Footer />

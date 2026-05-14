@@ -12,7 +12,7 @@ Complete the location resolution chain soObserver position is determined reliabl
 ## What this epic adds
 
 - IP geolocation lookup with timeout and graceful failure
-- Location cache to `~/.config/astrolink/location.json` (or platform equivalent)
+- Location cache to `~/.config/dotsky/location.json` (or platform equivalent)
 - `--no-geo` flag to skip IP geolocation
 - Fallback warning rendered in the Footer
 - CLI input validation with clear error messages

@@ -1,21 +1,42 @@
 {
-  "name": "astrolink",
+  "name": "dotsky",
   "version": "1.0.0",
   "description": "Full-screen terminal planetarium",
   "main": "./dist/cli.js",
   "bin": {
-    "astrolink": "./dist/cli.js"
+    "dotsky": "./dist/cli.js"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest",
     "build": "tsc",
-    "dev": "tsx src/cli.ts"
+    "dev": "tsx src/cli.ts",
+    "prepublishOnly": "npm test && npm run build"
   },
-  "keywords": [],
+  "keywords": [
+    "astronomy",
+    "planetarium",
+    "terminal",
+    "cli",
+    "ink",
+    "react",
+    "stars",
+    "night-sky"
+  ],
   "author": "",
   "license": "ISC",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anipatke/dotsky.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anipatke/dotsky/issues"
+  },
+  "homepage": "https://github.com/anipatke/dotsky#readme",
   "dependencies": {
     "ansi-escapes": "^7.3.0",
     "astronomy-engine": "^2.1.19",
